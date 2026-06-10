@@ -101,8 +101,8 @@ ai_brain = NeuralNet()
 criterion = nn.MSELoss()
 optimizer = optim.RMSprop(ai_brain.parameters(), lr=0.001)
 
-# Name: DAKSHATA G
-# Register Number: 212223240021
+# Name: MOHAN R
+# Register Number: 212224230168
 def train_model(ai_brain, X_train, y_train, criterion, optimizer, epochs=2000):
     for epoch in range(epochs):
         optimizer.zero_grad()
@@ -140,22 +140,21 @@ print(f'Prediction: {prediction}')
 ```
 
 ### Dataset Information
-<img width="308" height="456" alt="image" src="https://github.com/user-attachments/assets/29f106f9-c69c-4bbc-be1d-5bc8b5236c50" />
-
+<img width="282" height="238" alt="image" src="https://github.com/user-attachments/assets/cff90e56-2759-478d-bcb5-38c71b3627ad" />
 
 
 ### OUTPUT
-<img width="475" height="243" alt="image" src="https://github.com/user-attachments/assets/57f0c1ed-f375-48e5-9ca5-ce8a2758b6df" />
+<img width="410" height="229" alt="image" src="https://github.com/user-attachments/assets/a437d14b-6a65-4082-b83a-23c8b5d91295" />
 
 
 
 ### Training Loss Vs Iteration Plot
-<img width="746" height="580" alt="image" src="https://github.com/user-attachments/assets/a4ac021c-e4a5-496a-b0de-8c8fdf3d4234" />
+<img width="653" height="516" alt="image" src="https://github.com/user-attachments/assets/a85e5b8b-58c9-404e-93b7-b6b863fb50b1" />
 
 
 
 ### New Sample Data Prediction
-<img width="656" height="67" alt="image" src="https://github.com/user-attachments/assets/f70f56d8-189e-40a8-b07b-22707efde434" />
+<img width="587" height="77" alt="image" src="https://github.com/user-attachments/assets/d52584bb-d30e-4a41-a46a-aa579c76721f" />
 
 
 
